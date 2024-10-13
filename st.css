@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .xxx{
-    font-size: 73px;
-    font-weight: 154;
+    font-size: 40px;
+    font-weight: 15;
 }
 .ggg{
-    font-size: 73px;
-    font-weight: 150;
+    font-size: 38px;
+    font-weight: 170;
+    font-family: 'Regular',serif;
 }
 .aaa{
-    font-size: 73px;
+    font-size: 38px;
     font-weight: 150;
 }
 .hhh{
-    font-size: 73px;
-    font-weight: 150;
+    font-size: 20px;
+    font-weight: 109;
 }
 *{
     margin: 0;
@@ -22,10 +23,40 @@
 .konteiner{
     display: flex;
     background-color: #818F99;
+    
+}
+.text{
+    display: flex;
+    align-items: center;
+  
 }
 .foto{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    width: 600px;
+    height: 668px;
+    background-color:#afbdbd;
+
 }
-
-
+.text2{
+    display: flex;
+    gap: 50px;
+    background-color: #818F99;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #818F99;
+}
+.text4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #818F99;
+}
