@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.xxx{
+    font-size: 73px;
+    font-weight: 154;
+}
+.ggg{
+    font-size: 73px;
+    font-weight: 150;
+}
+*{
+    margin: 0;
+    padding: 0;
+   }
+.konteiner{
+    background-color: #818F99;
+}
+
+
+
