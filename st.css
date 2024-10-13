@@ -7,13 +7,25 @@
     font-size: 73px;
     font-weight: 150;
 }
+.aaa{
+    font-size: 73px;
+    font-weight: 150;
+}
+.hhh{
+    font-size: 73px;
+    font-weight: 150;
+}
 *{
     margin: 0;
     padding: 0;
    }
 .konteiner{
+    display: flex;
     background-color: #818F99;
 }
-
+.foto{
+    display: flex;
+    align-items: center;
+}
 
 
