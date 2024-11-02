@@ -1,0 +1,734 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.First-Screen {
+    background-image: url(Rectangle\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 173, 182);
+    height: 100px;
+    align-items: center;
+}
+header > div {
+    display: flex;
+}
+header > div > ul {
+    display: flex;
+    list-style: none;
+}
+header > div > ul > li {
+    display: flex;
+    list-style: none;
+    padding-left: 90px;
+}
+header > div > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+header > div > div {
+    display: flex;
+    align-items: center;
+}
+header > div > div > a > img {
+    margin-right: 30px;
+}
+header > div > div > ul {
+    display: flex;
+    list-style: none;
+}
+header > div > div > ul > li {
+    padding-right: 70px;
+}
+header > div > div > ul > li > a {
+color: black;
+text-decoration: none;
+}
+.tt-text {
+    display: block;
+margin-left: 100px;
+margin-top: 80px;
+}
+.tt-text-xxx {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.tt-text-li {
+    color: white;
+    font-size: 23px;
+    width: 280px;
+}
+.tt-but {
+margin-top: 40px;
+}
+.tt-text > div > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tt-text2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tt-text2 > div > p {
+    margin-left: 30px;
+    color: white;
+}
+.fs-text2 > div > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.tt-text2-do > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 130px;
+    background-color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+.rc {
+    width: auto;
+    height: 150px;
+    background-color: #F0FAF7;
+    margin-top: 5px;
+}
+
+
+.konteiner1 {
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.konteiner1 > div {
+display: flex;
+justify-content: center;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.mtext {
+    display: flex;
+    text-align: center;
+    width: 460px;
+}
+.konteiner1 > div > img {
+    width: 460px;
+}
+
+.konteiner6{
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.konteiner6 > div > img {
+    width: 460px;
+}
+    
+.text7{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.text8{
+    display: flex;
+    text-align: center;
+    width: 460px;
+}
+.konteiner7{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.square{
+    background-color: #005466;
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+   
+}
+.square> div {
+    margin-top: 40px;
+}
+.square > div > p {
+    color: white;
+}
+.square > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.square2{
+    background-color: #F7D8BF;
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+.square2 > div {
+    margin-top: 40px;
+}
+.square2 > div > p {
+    color: #C47B59;
+}
+.square2 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.square3{
+    background-color: rgb(217, 244, 250);
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+.square3 > div {
+    margin-top: 40px;
+}
+.square3 > div > p {
+    color: #64BAA1;
+}
+.square3 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.konteiner8 {
+    margin-top: 100px;
+    background-image: url(imgs/Waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.Foto {
+    display: flex;
+    text-align: center;
+    height: 1000px;
+    background-color: #005466;
+}
+.Foto > div > img {
+    margin-top: -300px;
+    width: 750px;
+}
+.Foto-text {
+    margin-top: 200px;
+}
+.text-big {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+.text-lil {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 380px;
+}
+
+.Waves {
+    margin-top: 100px;
+    background-image: url(imgs/Waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.Fourth-Screen {
+    display: flex;
+    text-align: center;
+    height: 1000px;
+    background-color: #005466;
+}
+.Fourth-Screen > div > img {
+    margin-top: -300px;
+    width: 750px;
+}
+.Fourth-Screen-text {
+    margin-top: 200px;
+}
+.Fs-text-big {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+.Fs-text-lil {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 380px;
+}
+.colored-cubes {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.cy {
+    background-color: #13C0D7;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.or {
+    background-color: #D53F23;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.colored-cubes > div > p {
+    color: white;
+    margin-left: 20px;
+}
+.Fs-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.Fs-but > a {
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.konteiner10 {
+    margin-top: -120px;
+    background-image: url(imgs/Waves-sand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.kartinka {
+    display: flex;
+    background-color: #F7D8BF;
+    height: 900px;
+    width: auto;
+}
+.kartinka > div {
+    padding-top: 300px;
+    margin-left: 100px;
+    width: 250px;
+}
+.text-big {
+    text-align: left;
+    color: #C47B59;
+    font-size: 50px;
+}
+.text-lil {
+    color: #C47B59;
+    font-size: 17px;
+    text-align: left;
+    width: 370px;
+}
+.kk {
+    background-color: #C47B59;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.nn {
+    background-color: #bcb2a7;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.cubes > div > p {
+    color: #C47B59;
+    margin-left: 20px;
+}
+.text-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.text-but > a {
+    color: #C47B59;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+
+
+.Waves-sand {
+    margin-top: -120px;
+    background-image: url(kniga3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.Fifth-Screen {
+    display: flex;
+    background-color: #F7D8BF;
+    height: 900px;
+    width: auto;
+}
+.Fifth-Screen > div {
+    padding-top: 300px;
+    margin-left: 100px;
+    width: 250px;
+}
+.FS-text-big {
+    text-align: left;
+    color: #C47B59;
+    font-size: 50px;
+}
+.FS-text-lil {
+    color: #C47B59;
+    font-size: 17px;
+    text-align: left;
+    width: 370px;
+}
+.br {
+    background-color: #C47B59;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.bor {
+    background-color: #EF9632;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.colored-cubes > div > p {
+    color: #C47B59;
+    margin-left: 20px;
+}
+.FS-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.FS-but > a {
+    color: #C47B59;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+.Fifth-Screen > div > img {
+    margin-top: -320px;
+    width: 800px;
+}
+.Sixth-Screen {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 1125.33;
+}
+.Sixth-Screen> div > img {
+    width: 400px;
+}
+.SS-text {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.SS-text-big {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+.SS-text-lil {
+    margin-top: 10px;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    width: 355px;
+}
+.SS-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.SS-but > a {
+    color: #000000;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+.Seventh-Screen {
+    display: flex;
+    justify-content: center;
+    background-color: #F1FAF6;
+    height: 800px;
+    margin-top: 100px;
+}
+.Seventh-Screen > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.Seventh-Screen > div > div > img {
+    width: 400px;
+    margin-right: 100px;
+}
+.SS-text2 {
+    margin-top: 100px;
+}
+
+.Eight-Screen {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-color: #FCF2F0;
+}
+.Eight-Screen > div > img {
+    display: flex;
+    width: 600px;
+    margin-top: 150px;
+    margin-right:100px;
+}
+.ES-text {
+    margin-right: 200px;
+    margin-top: 300px;
+}
+.ES-text-big {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+.ES-text-lil {
+    margin-top: 20px;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    width: 385px;
+}
+.ES-but {
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.ES-but > a {
+    color: #000000;
+    text-decoration: none;
+    border-width: 2px;
+    border-bottom: solid;
+    text-align: left;
+    width: 140px;
+    padding-top: 10px;
+}
+
+.cyan-waves {
+        margin-top: -120px;
+        background-image: url(imgs/Waves-sand.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 150px;
+        margin-bottom: -10px;
+}
+
+.Ninth-Screen {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: #64BAA1;
+}
+.Ninth-Screen > div > img {
+    display: flex;
+    width: 750px;
+    margin-top: -200px;
+}
+.NS-text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.NS-text-big {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.NS-text-lil {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: left;
+    width: 371px;
+}
+.NS-but {
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.NS-but > a {
+    color: #0A644A;
+    text-decoration: none;
+    border-width: 2px;
+    border-bottom: solid;
+    text-align: left;
+    width: 140px;
+    padding-top: 20px;
+}
+.Tenth-Screen {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.TS-text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.TS-text-big {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+.TS-text-lil {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-align: center;
+}
+.Eleventh-Screen-bg {
+    background-image: url(imgs/Eleventh-Screen-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    margin-top: -250px;
+    margin-bottom: -200px;
+}
+.Eleventh-Screen-bg > div {
+    padding-top: 200px;
+}
+.ElS-text {
+    width:350px;
+    margin-left: 100px;
+}
+.ElS-text-big {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.ElS-but {
+    width: 250px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+.ElS-but > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.eleventh{
+    display: flex;
+    background-image: url(Eleventh-Screen-bg.png);
+  }
+
+  .Reflesh{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 73px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .GET1{
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    width: 347px;
+    height: 69px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+  }
+
+  .foter{
+    padding-left: 153px;
+    padding-top: 180px;
+    padding-bottom: 480px;
+  }
